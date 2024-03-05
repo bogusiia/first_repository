@@ -1,89 +1,78 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px; 
-  position: relative;
+.container { 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 10px; 
+    position: relative; 
+} 
+ .container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
 }
 
-.row {
-  display: flex;
-}
-
-.square {
-  width: 6rem;
-  height: 6rem;
-  background-color: #808080;
-  margin-right: 0.5rem;
-}
-
-.rectangle {
-  height: 6rem;
-  margin-right: 0.5rem;
-}
-
-.large {
-  width: 9.75rem;
-}
-
-.full {
-  flex-grow: 1;
-}
-
-.dark-grey {
-  background-color: #808080;
-}
-
-.light-grey {
-  background-color: #f0f0f0; /* 
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-
-.container::after {
-  content: "";
-  width: calc(100% - 6mm); 
-  height: 1px;
-  background-color: black;
-  position: absolute;
-  bottom: -3mm;
-  left: 3mm; 
-  z-index: 1; 
-}
-
-.rectangle.medium.light-grey {
-  width: 9rem;
-  height: 15rem; 
-  background-color: #f0f0f0;
-  position: absolute; 
-  top: 3.5cm; 
-  left: 0; 
-  transform: rotateX(180deg); 
-
-.rectangle.medium.light-grey ul {
-  padding-left: 0; 
-  list-style-type: none; 
-  font-size: 12px; 
-  transform: rotate(180deg); 
-}
-
-.rectangle.medium.light-grey {
-  width: 9rem; 
-  height: 15rem; 
-  background-color: #f0f0f0;
-  position: absolute; 
-  top: 3.5cm; 
-  left: 0; 
-  transform: rotate(180deg); 
-}
-
-.rectangle.medium.light-grey ul {
-  padding-left: 0; 
-  list-style-type: none;
-  font-size: 12px; 
-  transform: rotate(180deg); 
+.row { 
+    display: flex; 
+} 
+ 
+.square { 
+    width: 6rem; 
+    height: 6rem; 
+    background-color: #808080; 
+    margin-right: 0.5rem; 
+} 
+ 
+.rectangle { 
+    height: 6rem; 
+    margin-right: 0.5rem; 
+} 
+ 
+.large { 
+    width: 9.75rem; 
+} 
+ 
+.full { 
+    flex-grow: 1; 
+} 
+ 
+.dark-grey { 
+    background-color: #808080; 
+} 
+ 
+.light-grey { 
+    background-color: #f0f0f0; 
+} 
+ 
+a { 
+    text-decoration: none; 
+    color: black; 
+} 
+ 
+.container::after { 
+    content: ""; 
+    width: calc(100% - 6mm); 
+    height: 1px; 
+    background-color: black; 
+    position: absolute; 
+    bottom: -3mm; 
+    left: 3mm; 
+    z-index: 1; 
+} 
+ 
+.rectangle.medium.light-grey { 
+    width: 9rem; 
+    height: 15rem; 
+    background-color: #f0f0f0; 
+    position: absolute; 
+    top: 3.5cm; 
+    left: 0; 
+    transform: rotate(180deg); 
+} 
+ 
+.rectangle.medium.light-grey ul { 
+    padding-left: 0; 
+    list-style-type: none; 
+    font-size: 12px; 
+    transform: rotate(180deg); 
 }
