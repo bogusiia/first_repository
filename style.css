@@ -56,9 +56,10 @@
   
   .container::after { 
     content: ""; 
-    width: calc(100% - 6mm); 
+    width: calc(100% - 7mm); 
     height: 1px;
-    background-color: black; 
+    background-color: #808080; 
+    font-weight: bold;
     position: absolute; 
     bottom: -1mm; 
     left: 3mm; 
@@ -71,7 +72,7 @@
     background-color: #808080; 
     position: absolute; 
     top: 137px; 
-    left: 0; 
+    left: 7px; 
     transform: rotate(180deg); 
   color: #f0f0f0;
   } 
@@ -85,9 +86,9 @@
     padding-left: 12px;
     line-height: 21px;
   }
-  
+
   .rectangle.extra-large.dark-grey {
-    width: 696px;
+    width: 687px;
     height: 205px;
     background-color: #ece8e8;
     position:absolute;
@@ -126,13 +127,13 @@
   .five-blocks {
     position: absolute;
      top: calc(100% + 250px);
-    left: 199px; 
+    left: 205px; 
     display: flex; 
     justify-content: space-between; 
   }
   
   .block {
-    width: 137.6px; 
+    width: 136px; 
     height: 160px; 
     background-color: lightgray; 
     margin-right: 20.5px; 
@@ -141,20 +142,20 @@
   .additional-blocks {
     position: absolute;
     top: 555px;
-    left: 355px; 
+    left: 364px; 
     display: flex; 
-    justify-content: space-between; 
+    margin-right: 20.5px;
     width: 320px;
-    
+ ; 
   }
   
 
   .new-block3 {
-    width: 380px;
-    height: 165px;
+    width: 374px;
+    height: 205px;
     background-color: lightgray; 
     margin-top: 610px;
-    margin-left: 330px;
+    margin-left: 354px;
     font-family: Arial;
     color: #808080; 
     font-size: 14px;
@@ -165,11 +166,11 @@
  
   }
   .new-block4 {
-    width: 380px;
-    height: 165px;
+    width: 377px;
+    height: 205px;
     background-color: lightgrey;
-    margin-top: -183px;
-    margin-left: 730px; 
+    margin-top: -222px;
+    margin-left: 743px; 
     color: #808080;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -178,3 +179,18 @@
   line-height: 21px;
   font-family: Arial ;
    }
+  
+   .line2 {
+    content: ""; 
+    width: calc(100% - 90mm); 
+    height: 1px;
+    background-color: #808080; 
+    font-weight: bold;
+    position: absolute; 
+    bottom: -5mm; 
+    margin-bottom: -350px;
+    left: 170px;
+    margin-right: 120зч;
+    z-index: 1;
+   }
+ 
