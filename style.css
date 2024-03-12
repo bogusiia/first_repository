@@ -18,13 +18,13 @@
   
   .square { 
     width: 96px; 
-    height: 96px; 
+    height: 107px; 
     background-color: #808080; 
     margin-right: 8px; 
   } 
   
   .rectangle { 
-    height: 96px; 
+    height: 107px; 
     margin-right: 8px; 
   } 
   
@@ -40,7 +40,9 @@
     background-color: #808080; 
   font-size: 14px;
   text-align: right;
-  padding-right: 1.5cm;
+  padding-right: 12px;
+  padding-left: 15px;
+  
   }
   
   
@@ -52,6 +54,8 @@
   a { 
     text-decoration: none; 
     color: #f0f0f0; 
+    line-height: 22px;
+    font-family: Arial;
   } 
   
   .container::after { 
@@ -68,39 +72,43 @@
   
   .rectangle.medium.light-grey { 
     width: 175px; 
-    height: 305px; 
+    height: 335px; 
     background-color: #808080; 
     position: absolute; 
-    top: 137px; 
-    left: 7px; 
+    margin-top: 30px;
+    left: 10px; 
     transform: rotate(180deg); 
     color: #f0f0f0;
   } 
   
   .rectangle.medium.light-grey ul { 
-  
     list-style-type: none; 
-    font-size: 15px; 
+    font-size: 14px; 
     transform: rotate(180deg); 
     font-family: Arial;
     padding-left: 12px;
-    line-height: 21px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  
   }
-
-  .rectangle.extra-large.dark-grey {
-    width: 687px;
-    height: 205px;
+    .rectangle.medium.light-grey ul li:first-of-type {
+    font-size: 16px;
+    margin-top: -8px; 
+    }
+    
+    .rectangle.extra-large.dark-grey {
+    width: 727px;
+    height: 215px;
     background-color: #ece8e8;
     position:absolute;
-    top: 4px;
+    top: -17px;
     left: 200px;
-    margin-left: 0px;
     color: #000000;
     font-size: 14px;
     font-weight: bold;
     text-align: left;
     padding-left: 14px;
-    line-height: 21px;
+    line-height: 22px;
   }
   .bullet {
     display: inline-block;
@@ -148,49 +156,51 @@
     width: 320px;
  ; 
   }
-  
-
-  .new-block3 {
-    width: 374px;
+   .new-block3 {
+    width: 350px;
     height: 205px;
     background-color: lightgray; 
     margin-top: 610px;
-    margin-left: 354px;
+    margin-left: 380px;
     font-family: Arial;
     color: #808080; 
     font-size: 14px;
     font-weight: bold;
     line-height: 22px;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+     }
+
  
-  }
   .new-block4 {
-    width: 377px;
+    width: 350px;
     height: 205px;
     background-color: lightgrey;
-    margin-top: -222px;
-    margin-left: 743px; 
+    margin-top: -220px;
+    margin-left: 755px; 
     color: #808080;
   padding-top: 10px;
   padding-bottom: 5px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 22px;
   font-family: Arial ;
-   }
+  padding-left: 15px;
+  font-weight: bold;
+  }
+
   
    .line2 {
     content: ""; 
-    width: calc(100% - 90mm); 
+    width: calc(100% - 93mm); 
     height: 1px;
     background-color: #808080; 
     font-weight: bold;
     position: absolute; 
     bottom: -5mm; 
-    margin-bottom: -350px;
-    left: 170px;
-    margin-right: 120зч;
+    margin-bottom: -360px;
+    left: 185px;
+    margin-right: 118px;
     z-index: 1;
    }
 
@@ -233,6 +243,7 @@
   font-weight: bold;
   padding-left: 10px;
   justify-content: space-between;
+
 }
 
 .rectangle3 ul {
@@ -254,19 +265,19 @@
 }
 
 .rectangle4 {
-  margin-top: 45px;
-  margin-left: 790px;
+  margin-top: 42px;
+  margin-left: 815px;
   background-color: #808080;
   display: flex;
-  width: 330px;
-  height: 90px;
+  width: 310px;
+  height: 91px;
   }
 
 .rectangle5 {
-  width: 330px ;
-  height: 90px;
+  width: 310px ;
+  height: 91px;
   display: flex;
-  margin-top: 20px;
-  margin-left: 790px;
+  margin-top: 12px;
+  margin-left: 815px;
   background-color: #808080;
 }
