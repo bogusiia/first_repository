@@ -81,13 +81,11 @@ font-family: Arial;
 line-height: 22px;
 }
 
-
-
 .block5 {
 width: 180px;
 height: 160px;
 background-color: #808080;
-margin-top: 300px;
+margin-top: 310px;
 }
 
 .container3 {
@@ -112,7 +110,7 @@ float: left;
 
 .container3 {
 width: 80%; 
-flex-direction: line;
+float: right;
 }
 
 .list {
@@ -170,23 +168,18 @@ background-color: lightgrey;
 margin-bottom: 10px;  
 }
 
- .container4 {
+.block8  { 
   display: flex;
-  flex-wrap: wrap;
-  width: 440px;
-  height: 440px;
-  margin-right: 20px;
-
- }
- .block8 {
-  height: 260px;
-  width: 220px;
+  height: 202px;
+  width: 380px;
   background-color: lightgray;
   margin: 10px;
-
- }
- .block9 {
-  height: 270px;
-  width: 220px;
+}
+.block9 {
+  display: flex;
+  height: 202px;
+  width: 380px;
+  margin-bottom: 220px;
   background-color: lightgray;
- }
+}
+
