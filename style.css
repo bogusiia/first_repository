@@ -61,7 +61,7 @@ margin-top:  15px;
 
 .block4 {
 width: 180px;
-height: 360px;
+height: 340px;
 background-color: #808080;
 }
 
@@ -85,7 +85,7 @@ line-height: 22px;
 width: 180px;
 height: 160px;
 background-color: #808080;
-margin-top: 310px;
+margin-top: 270px;
 }
 
 .container3 {
@@ -97,7 +97,7 @@ display: flex;
 }
 .block6 {
 width: 770px; 
-height: 230px; 
+height: 215px; 
 background-color: lightgray; 
 margin-top: 20px;
  
@@ -134,7 +134,7 @@ font-family: Arial;
 }
 h2{
 font-family: Arial;
-margin-top: 20px; 
+margin-top: 15px; 
 padding-left: 15px ;
 color: darkgrey;
 font-size: 16px;
@@ -163,23 +163,36 @@ gap: 17px;
 
 .block {
 width: 140px ;
-height: 170px; 
+height: 160px; 
 background-color: lightgrey; 
 margin-bottom: 10px;  
 }
-
-.block8  { 
+.inner-container {
   display: flex;
-  height: 202px;
-  width: 380px;
-  background-color: lightgray;
-  margin: 10px;
-}
-.block9 {
-  display: flex;
-  height: 202px;
-  width: 380px;
-  margin-bottom: 220px;
-  background-color: lightgray;
+  justify-content: space-between; /* Рівномірно розмістити елементи по ширині */
+  align-items: center; /* Вирівняти елементи по вертикалі */
+  height: 190px;
+  width: 770px;
+  background-color: darkgrey;
 }
 
+.block8 {
+  display: inline-block; 
+  background-color: lightgray;
+  width: 360px;
+}
+
+.line1 {
+  width: 960px;
+  height: 1px;
+  background-color: black;
+  margin-top: 30px;
+  font-weight: normal;
+  
+  }
+  .block10 {
+    width: 180px;
+    height: 200px;
+    background-color: darkgrey;
+    margin-top: 130px;
+  }
