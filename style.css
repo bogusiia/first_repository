@@ -251,19 +251,19 @@
     
     .container5 {
       height: 190px;
-      width: 340px;
+      width: 350px;
       display: flex;
       justify-content: space-between;
     }
     .block12{
       height: 80px;
-      width: 340px;
+      width: 350px;
       color:darkgrey;
       background-color: #808080;
     }
   .block13  img{
     height: 80px;
-    width: 340px;
+    width: 350px;
   margin-top: 120px;
   display: flex;
   background-color: #808080;
