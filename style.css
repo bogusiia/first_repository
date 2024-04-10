@@ -3,7 +3,9 @@
 
   box-sizing: border-box;
   }
+  @media screen and (max-width: 1024px) {
   
+    }
   body {
   max-width: 960px;
   margin: 0 auto;
@@ -34,6 +36,8 @@
   
   .block3 {
   width: 430px;
+  text-align: right;
+  padding-right: 25px;
   }
   
   a {  
@@ -46,7 +50,7 @@
   hr {
   width: 960px;
   height: 1px;
-  background-color: black;
+  color: lightgrey;
   margin-top: 15px;
   }
   
@@ -57,16 +61,18 @@
   width: 20%; 
   float: left;
   font-family: Arial;
+  
   }
   
   .block4 {
   width: 170px;
   height: 360px;
   background-color: #808080;
+  
   }
   
   .block4 h1 {
-
+list-style-type: none;
   font-size: 16px;
   color: white;
   padding: 7px;
@@ -86,8 +92,8 @@
   width: 175px;
   height: 150px;
   background-color: #808080;
-  margin-top: 215px;
-  margin-bottom: 15px;
+  margin-top: 250px;
+  margin-bottom:25px;
   }
   
   .container3 {
@@ -103,13 +109,13 @@
   background-color: lightgray; 
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px; 
+
   }
  
   .list {
-  padding-left: 25px; 
+  padding-left: 35px; 
   margin-top: 25px;
-  color: darkgray; 
+  color: #808080; 
   line-height: 21px;
   }
   
@@ -118,42 +124,45 @@
   }
   h3 {
   padding-left: 18px;
+  font-size: 15px;
   }
   h2 {
   margin-top: 25px; 
   padding-left: 15px ;
-  color: darkgrey;
+  color: #808080;
  font-size: 16px;
 
   }
   
   .word {
   color: black; 
-  padding-left: 10px;
+ 
   font-weight: bold;
   }
   .description {
-  color: darkgrey; 
+  color: #808080; 
+  font-weight: bolder;
+
+.block {}
   }
-  .block7 img  {
-  flex-wrap: wrap;
-  justify-content: left;
-  margin-top: 10px;
-  display: inline-block ; 
-  width: 147px;
-  height: 150px;
-  background-color: lightgrey ;
-  color: lightgrey;
-  margin-bottom: 10px ;
-  }
-  .block7 img:nth-child(5) {
-    margin-right: 0;
-  }
+  .block7 .block img  {
+    margin: 16px;
+    margin-left: auto;
+    display: inline-block ; 
+    width: 133px;
+    height: 160px;
+    background-color: lightgrey ;
+    color: lightgrey;
+    margin-right: 0 auto;
+    }
   .inner-container {
     display: flex;
     justify-content:space-between;
-    height: 160px;
+    height: 185px;
     width: 770px;
+    font-size: 15px; 
+    font-family: Arial;
+    font-weight: bold;
   }
   
   .block8 {
@@ -161,32 +170,29 @@
     background-color: lightgray;
     width: 380px;
     color: black;
-    
-  }
-  .block8 p {
-    font-size: 14px; 
-    font-family: Arial, sans-serif; 
+  
     color: #808080; 
     line-height:21px; 
-    padding: 10px; 
-}
+    padding: 15px; 
+  }
+
+
 .block9 {
   width: 380px;
   background-color: lightgrey;
   display: flex;
 }
   .block9 p {
-    font-size: 14px; 
-    font-family: Arial, sans-serif; 
     color: #808080; 
     line-height:21px; 
-    padding: 10px; 
+    padding: 15px; 
+    font-weight: bold;
   }
 
   .line1 {
     width: 960px;
     height: 1px;
-    background-color: black;
+    color:lightgray;
     font-weight: normal;
     
   
@@ -196,12 +202,12 @@
           display: flex;
           justify-content: space-between;
           margin-top: 25px;
-          height: 180px;
+          height: 220px;
       }
       
       .block10, .block11 {
-        height: 200px;
-        width: 290px;
+        height: 210px;
+        width: 300px;
         display: flex;
         justify-content: space-between;
           background-color: #808080;
@@ -217,37 +223,34 @@
           padding-top: 15px;
         }
         .column1 {
-          padding-left: 35px;
+          padding-left: 25px;
+          font-weight: bolder;
         }
        .column2 {
-         padding-right: 80px;
+         padding-right: 90px;
         }
     .block11 li {
-      padding-left: 15px;
+  
       list-style-type: square;
-      line-height: 16px;
+ 
       color: white;
-      padding-top: 10px;
-     font-family: Arial, Helvetica, sans-serif;
+      padding-top: 8px;
+     font-family: Arial;
     }
   
       .container5 {
-      height: 190px;
-      width: 350px;
+      height: 220px;
+      width: 330px;
       display: flex;
       justify-content: space-between;
-    }
-    .block12{
-      height: 80px;
-      width: 350px;
-      color:darkgrey;
-      background-color: #808080;
-    }
-  .block13  img{
-    height: 80px;
-    width: 350px;
-  margin-top: 120px;
-  display: flex;
-  background-color: #808080;
-  color: #808080;
-  }
+        flex-direction: column; 
+      }
+      
+      .block12, .block13 {
+        width: 330px; 
+        height: 90px; 
+        background-color:#808080;
+        margin-bottom: 10px; 
+    color: #808080;
+      }
+      
