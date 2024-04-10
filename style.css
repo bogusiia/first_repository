@@ -1,4 +1,4 @@
-*{
+**{
   margin: 0;
 
   box-sizing: border-box;
@@ -73,10 +73,10 @@
   
   .block4 h1 {
 list-style-type: none;
-  font-size: 16px;
+  font-size: 17px;
   color: white;
-  padding: 7px;
-  margin-top: 5px;
+  padding: 10px;
+  
   }
 
   .block4 ul {
@@ -85,15 +85,14 @@ list-style-type: none;
   font-size: 14px;
   line-height: 22px;
   list-style-type: none;
-
   }
   
   .block5 {
   width: 175px;
   height: 150px;
   background-color: #808080;
-  margin-top: 250px;
-  margin-bottom:50px;
+  margin-top: 263px;
+  margin-bottom:30px;
   }
   
   .container3 {
@@ -142,18 +141,15 @@ list-style-type: none;
   .description {
   color: #808080; 
   font-weight: bolder;
-
-.block {}
   }
   .block7 .block img  {
-    margin: 16px;
+    margin: 12px;
     margin-left: auto;
     display: inline-block ; 
-    width: 133px;
+    width: 137px;
     height: 160px;
     background-color: lightgrey ;
     color: lightgrey;
-    margin-right: 0 auto;
     }
   .inner-container {
     display: flex;
@@ -194,6 +190,7 @@ list-style-type: none;
     height: 1px;
     color:lightgray;
     font-weight: normal;
+
     
   
   }
