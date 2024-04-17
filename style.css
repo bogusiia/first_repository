@@ -1,12 +1,12 @@
 *{
   margin: 0;
-
   box-sizing: border-box;
   }
 
 
   body {
-  max-width: 980px;
+  width: 980px;
+  padding: 0 10px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   
   .container {
  margin-top: 50px;
-    width: 960px; 
+    width: 925px; 
   display: flex;
   justify-content: space-between;
   }
@@ -35,7 +35,7 @@
   }
   
   .block3 {
-  width: 460px;
+  width: 440px;
   text-align: right;
   padding-right: 20px;
   }
@@ -48,32 +48,34 @@
   }
   
   hr {
-  width: 960px;
+  width: 920px;
   height: 1px;
   color: lightgrey;
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 20px;
   }
   
   .container2 {
   display: flex;
   flex-direction: column;
   margin-top:  15px;
-  width: 20%; 
+  width: 22%; 
   float: left;
   font-family: Arial;
+  
   
   }
   
   .block4 {
- margin-left: 10px;
-    width: 160px;
+ margin-left: 20px;
+    width: 180px;
   height: 360px;
   background-color: #808080;
   
   }
   
   .block4 h1 {
+
 list-style-type: none;
   font-size: 17px;
   color: white;
@@ -82,36 +84,38 @@ list-style-type: none;
   }
 
   .block4 ul {
-  padding: 6px;
+  padding: 8px;
   color: white;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 23px;
   list-style-type: none;
   }
-  
+ 
   .block5 {
-  width: 175px;
+  width: 180px;
   height: 150px;
   background-color: #808080;
-  margin-top: 263px;
-  margin-bottom:30px;
+  margin-top:300px;
+  margin-bottom:20px;
+  margin-left: 20px;
+ 
   }
   
   .container3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%; 
+    width: 78%; 
     
     
   }
   .block6 {
-  width: 735px; 
+  width: 720px; 
   height: 230px; 
   background-color: lightgray; 
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
-
+  margin-left: 15px;
   }
  
   .list {
@@ -148,20 +152,16 @@ list-style-type: none;
   }
 
    .block img  {
-  margin: 15px;
-   margin-left: auto;
+    margin: 10px;
     display: inline-block ; 
-    width: 131px;
+    width: 122px;
     height: 160px;
     background-color: lightgrey ;
     color: lightgrey;
     margin-bottom: 15px;
-    margin-bottom: 15px;
-  margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 13px;
  
-    }
-    .block7:empty {
-      display: none;
     }
     
   
@@ -169,36 +169,40 @@ list-style-type: none;
     display: flex;
     justify-content:space-between;
     height: 185px;
-    width: 750px;
-    font-size: 15px; 
+    width: 740px;
     font-family: Arial;
     font-weight: bold;
+    font-size: 15px;
   }
   
   .block8 {
+    margin-left: 10px;
     display: flex; 
     background-color: lightgray;
-    width: 370px;
+    width: 360px;
     color: #808080; 
     line-height:21px; 
-    padding: 15px; 
+    padding-top: 15px; 
+    padding-left: 5px;
   }
 
 
 .block9 {
-  width: 370px;
+  padding-left: 5px;
+  width: 360px;
   background-color: lightgrey;
   display: flex;
 }
   .block9 p {
     color: #808080; 
-    line-height:19px; 
+    line-height:21px; 
     padding: 15px; 
-    font-weight: bold;
+   
   }
 
   .line1 {
-    width: 960px;
+   
+    width: 930px;
     height: 1px;
     color:lightgray;
     font-weight: normal;
@@ -212,14 +216,16 @@ list-style-type: none;
           justify-content: space-between;
           margin-top: 25px;
           height: 220px;
+          margin-left: 30px;
       }
       
       .block10, .block11 {
         height: 210px;
-        width: 300px;
+        width: 290px;
         display: flex;
         justify-content: space-between;
           background-color: #808080;
+          padding-bottom: 10px;
     
         }
         
@@ -239,9 +245,7 @@ list-style-type: none;
          padding-right: 90px;
         }
     .block11 li {
-  
       list-style-type: square;
- 
       color: white;
       padding-top: 8px;
      font-family: Arial;
@@ -256,9 +260,10 @@ list-style-type: none;
       }
       
       .block12, .block13 {
-        width: 330px; 
+        width: 310px; 
         height: 90px; 
         background-color:#808080;
         margin-bottom: 10px; 
-    color: #808080;
-      }
+        color: #808080;
+       
+  }
